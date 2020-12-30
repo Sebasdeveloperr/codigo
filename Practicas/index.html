@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <h1>comidas rapidas colm</h1>
+    </header>
+    <main>
+        <article>
+            <h1>La mejor comida de Herrera</h1>
+            <p>Teniendo en cuenta que a herrera eun lugar con gran diversidad de animales se creo la compañia comidas rapidas colm para sacias el apetito de la comunidad.</p>
+        </article>
+        <section>
+            <h4>listado de animales usados para preparar la comida</h4>
+            <ol>
+                <li>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ngenespanol.com%2Fanimales%2Fmamuts-tenian-sangre-anticongelante%2F&psig=AOvVaw1IY5Ikh2Tn1Hm7iHNDJrbf&ust=1609433554143000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj2vK2V9u0CFQAAAAAdAAAAABAO">mamut</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fmundo%2Fnoticias-48676663&psig=AOvVaw2ZuXjmSGNWmFRcaNkBPorq&ust=1609433582208000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjV1LqV9u0CFQAAAAAdAAAAABAD">perros</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnutricionanimal.info%2Foptimizacion-del-suministro-mineral-en-pollos-de-engorde%2F&psig=AOvVaw1UM_9jLBDxqJV_PoSeKeFB&ust=1609433608691000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjO9saV9u0CFQAAAAAdAAAAABAI">pollos</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fokdiario.com%2Fmascotas%2Flo-que-debes-saber-sobre-avestruz-4965295&psig=AOvVaw2cV_xnrO_o9y9WS2c1C56l&ust=1609433649360000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCqztqV9u0CFQAAAAAdAAAAABAD">aveztruz</a>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <figure>
+                <img src="./IMG-20190905-WA0000.jpg" alt="Retornos del maestro kelium">
+                <figcaption>Sabios</figcaption>
+            </figure>
+        </section>
+        <section>
+            <video controls preload="auto">
+                <source src="./ALIMENTAR EL BOLSILLOS.mp4">
+            </video>
+        </section>
+        <section>
+            <form action="">
+                <h3>Tipo de comida que desea</h3>
+                <input list="comidas" required>
+                <datalist id="comidas" aria-required="false">
+                    <option value="Perro caliente"></option>
+                    <option value="Hamburguesa"></option>
+                    <option value="Salchipapas"></option>
+                    <option value="Chorizo frito"></option>
+                    <option value="Empanadas"></option>
+                </datalist>
+            </form>
+            <form action="">
+                <label for="fecha-entrega">
+                    <span>Para cuando quiere su pedido</span>
+                    <input type="datetime-local" id="fecha-entrega" name="fecha-entrega" required>
+                </label>
+                <label for="nombre">
+                    <span>su nombre</span>
+                    <input type="text" id="nombre" name="nombre" placeholder="su nombre" autocomplete="name" required>
+                </label>
+                <label for="correo">
+                    <span>Su correo electrónico?</span>
+                    <input type="email" id="correo" name="correo" placeholder="hotmart@gmail.com" required>
+                </label>
+                <button type="submit">pedir orden ya!</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

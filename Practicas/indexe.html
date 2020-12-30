@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h3>Tipo de comida que desea</h3>
+            <input list="comidas">
+            <datalist id="comidas">
+                <option value="Perro caliente"></option>
+                <option value="Hamburguesa"></option>
+                <option value="salchipapas"></option>
+            </datalist>
+        </form>
+        <form action="">
+            <label for="fecha-entrega">
+                <span>Para cuando quiere su pedido</span>
+                <input type="datetime-local" id="fecha-entrega" name="fecha-entrega" required>
+            </label>
+            <label for="nombre">
+                <span>su nombre</span>
+                <input type="text" id="nombre" name="nombre" placeholder="su nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>Su correo electrónico?</span>
+                <input type="email" id="correo" name="correo" placeholder="hotmart@gmail.com" required>
+            </label>
+            <button>pedir orden ya!</button>
+        </form>
+    </main>
+</body>
+</html>
