@@ -1,0 +1,25 @@
+.main-div{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color:rgba(8, 255, 193, 0.287);
+}
+.main-div__it{
+    display: inline-block;
+}
+.main-div__it a {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+}
+.main-div__it a:hover{
+    color: springgreen;
+}
+
+.main-div__it a:active{
+    color: rgb(255, 196, 0);
+}
+
+.main-div__it a::after{
+    content: ">";
+}

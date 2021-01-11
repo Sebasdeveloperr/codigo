@@ -1,0 +1,13 @@
+/* quiero que p tenga color verde si tiene hermanos generales h1 */
+h1 ~ p{
+    color: green;
+}
+
+
+
+/* quiero que h4  tenga color rojo si tiene hermanos p */
+
+p ~ h4{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}

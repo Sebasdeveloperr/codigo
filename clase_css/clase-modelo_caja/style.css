@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 1000px;
+    border: 15px solid lightseagreen;
+    padding: 25px 35px;
+
+}

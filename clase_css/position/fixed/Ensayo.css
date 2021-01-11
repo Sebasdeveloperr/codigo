@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.div{
+    background-color: orange;
+    top: 0px;
+    width: 100%;
+    height: 115px;
+    position: fixed;
+    
+}
+
+.div .lista li{
+    font-size: 25px;
+    list-style: none;
+    margin-left: 50%;
+}
+
+.list{
+    text-decoration: none;
+    color: papayawhip;
+}
+
+
+.rojo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 115px;
+}
+
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 1000px;
+}
+
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 215px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.amarillo{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.violeta{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+

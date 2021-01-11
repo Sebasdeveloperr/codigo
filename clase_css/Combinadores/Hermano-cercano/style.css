@@ -1,0 +1,16 @@
+/* quiero que la etiqueta h2 quede verde si hay un hermano cecano  que sea p */
+p + h2{
+    color: greenyellow;
+}
+
+/* quiero que  h6 quede rojo si hay un  hermano cercano que sea  p */
+
+h4 + h6{
+    color: red;
+}
+
+/* quiero que un p quede de color amarillo si hay un hermano cercano que sea h3 */
+
+h3 + p{
+    color: yellow;
+}

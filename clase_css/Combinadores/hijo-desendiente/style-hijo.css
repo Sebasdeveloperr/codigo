@@ -1,0 +1,5 @@
+/* quiero que p este azul si es hijo directo de un div */
+
+div > p{
+    color: blue;
+}

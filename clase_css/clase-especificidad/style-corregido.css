@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page-header{
+    background-color: black;
+    ;
+}
+
+
+.title{
+    font-size: 25px;
+    font-family: serif;
+    padding-left: 15px;
+    color: cyan;
+}
+
+ 
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    font-size: 10px;
+    color: darkgoldenrod;
+    border-radius: 5px;
+    background-color: rgba(0, 183, 255, 0.37);
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+/* con el id si queda bien el color que yo quiero que quede */
+
+/* utilizando los dos class si se puedo ya que 2 class tiene más peso que una clase y un tag */
+
+.nav .rid{
+    font-family: inherit;
+    background-color: rgb(0, 255, 21);
+    color: red;
+}
+

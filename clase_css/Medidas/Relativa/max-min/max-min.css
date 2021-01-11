@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+section{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 450px;
+    min-width: 200px;
+    min-height: 400px;
+    background-color: bisque;
+}

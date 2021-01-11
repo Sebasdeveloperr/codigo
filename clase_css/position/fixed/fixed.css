@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.div{
+    background-color: turquoise;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+
+.rojo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 200px;
+    height: 500px;
+}
