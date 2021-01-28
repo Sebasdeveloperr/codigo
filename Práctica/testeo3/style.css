@@ -1,0 +1,13 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.ancho{
+    width: 1366px;
+    height: 625px;
+    background-color: blue;
+}

@@ -1,5 +1,6 @@
-div{
+.box{
     background-color: violet;
+    border: 8px black dotted;
     width: 100%;
     height: 500px;
 }

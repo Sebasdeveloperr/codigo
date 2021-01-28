@@ -1,0 +1,23 @@
+:root{
+    --color-primario: salmon;
+    --tam-fuente-h1:5rem;
+    --tam-fuente-p: 2rem;
+    --color-p: red;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    color: var(--color-primario);
+    font-size: var(--tam-fuente-h1);
+}
+
+p{
+    color: var(--color-p);
+    font-size: var(--tam-fuente-p);
+}

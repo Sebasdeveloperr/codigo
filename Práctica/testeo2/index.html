@@ -1,0 +1,28 @@
+<!-- lo que se quiere saber es que si tenemos una capa padre con position relativa y dentro de esta tenemos otra caja con posicion absolute. pero dentro queremos tener otra caja con absolute.. para mirar la caja de más adentro a quien toma como referncia para posicionarse. -->
+
+<!-- tambien se puede confirmar que cuando se le da trasnform con traslate de -50% en las dos cordenadas si queda bien en el centro -->
+
+
+<!-- si se puede comporbar que si hay un cuadro dentro de otro que ese otro es us padre , el cuadro ulitmo de adentro hacia afuera seguirá tomando como referencia a su padre más cercano así tenga absolute -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="tres">
+            <div class="uno"></div>
+            <div class="uno-o"></div>
+            <div class="dos">
+                <div class="centro"></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    border: solid 0.5rem black;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div{
+    background-color: rgb(163, 170, 61);
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
