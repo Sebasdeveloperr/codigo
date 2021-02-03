@@ -3,24 +3,58 @@
     padding: 0;
     margin: 0;
 }
-
 html{
     font-size: 62.5%;
 }
 
-.cont-blanco{
-    background-color: white;
-}
-
-/* Icono de hotmrt */
-
-.icon img {
+.logo img{
+    max-width: 9.2rem;
+    max-height: 9.2rem;
     width: auto;
     height: auto;
-    max-width: 16rem ;
-    max-height: 16rem ;
-    position: relative;
-    margin-left: 5rem;
-    margin-top: 5rem;
+    position: absolute;
+    margin-top: 3.3rem;
+    margin-left: 3.5rem;
 }
 
+
+/* login o creación de cuenta */
+
+.login-sign .sign{
+    font-size:2rem;
+    color: gray;
+    text-decoration:none;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10rem;
+
+}
+
+.login-sign .log{
+    font-size:2rem;
+    color: gray;
+    text-decoration:none;
+    margin-left: 20rem;
+    margin-right: 2rem;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10rem;
+}
+
+
+/* caja de registro de facebook */
+
+.form{
+    display: flex;
+}
+.raiz-madre .botonface{
+    background-color: #3b5998;
+    border-color: #3b5998;
+    position: absolute;
+    display: inline-block;
+    margin-top: 25rem;
+    justify-content: center;
+    width: 25rem;
+}
